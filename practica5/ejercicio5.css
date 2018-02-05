@@ -1,0 +1,34 @@
+body{
+	background-image: url("http://amigomejor.hol.es/css/fondo1.jpg");
+	font-family: Caladea;
+}
+
+h1{
+	text-align: center;
+	color: #ECE2E0;
+}
+
+table{
+	background: #ECE2E0;
+	margin-left: 22%;
+	margin-top: 3%;
+	text-align: center;
+	border-collapse:collapse;
+	border: 1px solid black;
+}
+
+table td{
+	border: 1px solid black;
+	padding: 14px;
+}
+
+.desc {
+	text-align: center;
+    padding: 20px;
+    display: none;
+}
+
+p {
+	font-weight:bold;
+}
+
