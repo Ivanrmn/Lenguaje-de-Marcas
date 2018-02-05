@@ -1,0 +1,117 @@
+body {
+	background-image: url("imagenes/fondo.jpg");
+	color:white;
+}
+
+.vertical-menu {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+	float: right;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: blue;
+	color: white;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.social a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+    margin: 10px;
+	vertical-align: middle;
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	 -ms-transition: all .3s;
+}
+
+.social a.facebook { background: url(https://dl.dropbox.com/s/r2la6x82bwtv50c/facebook.png); }
+.social a.twitter { background: url(https://dl.dropbox.com/s/vg08vwim67pharq/twitter.png); }
+.social a.youtube { background: url(https://dl.dropbox.com/s/8s5t68syabcshqg/youtube.png); }
+
+.social a:hover { background-position: 0px -34px; }
+
+footer{
+	position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    right: 0;
+ }
+ 
+ 
+  .animal1 {
+    width: 80px; height: 70px;
+    background: url('imagenes/animales.jpg') -240px -5px;
+}
+
+ .animal2 {
+    width: 80px; height: 70px;
+    background: url('imagenes/animales.jpg') -5px -75px;
+}
+
+ .animal3 {
+    width: 80px; height: 80px;
+    background: url('imagenes/animales.jpg') -550px -5px;
+}
+
+ .animal4 {
+    width: 80px; height: 80px;
+    background: url('imagenes/animales.jpg') -320px 0;
+}
+
+ .animal5 {
+    width: 80px; height: 80px;
+    background: url('imagenes/animales.jpg') -150px -65px;
+}
+
+ .animal6 {
+    width: 80px; height: 80px;
+    background: url('imagenes/animales.jpg') 10px -5px;
+}
+
+ .animal7 {
+    width: 80px; height: 80px;
+    background: url('imagenes/animales.jpg') -800px -150px;
+}
+
+ .animal8 {
+    width: 80px; height: 80px;
+    background: url('imagenes/animales.jpg') 800px 150px;
+}
+
+ .animal9 {
+    width: 80px; height: 80px;
+    background: url('imagenes/animales.jpg') 555px 235px;
+}
+
+h1 {
+	margin-left: 450px;
+	margin-top: 80px;
+}
+
+.inicio{
+	width: 50%;
+	margin-top: 50px;
+	height: 400px;
+	margin-left: 400px;
+	font-size: 20px;
+}

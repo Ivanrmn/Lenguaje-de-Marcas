@@ -1,0 +1,109 @@
+body {
+	background-image: url("imagenes/fondo.jpg");
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #434343;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.8);
+    border-radius: 5px;	
+}
+
+.dropdown-content a {
+    float: none;
+    color: #D4AF37;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #434343;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+nav ul {
+    margin: 0 auto;
+    overflow: auto;	
+    background-color:black;	
+    padding-bottom: 15px;
+	border:1px solid #D4AF37;
+	border-radius:5px;
+}
+
+nav li {
+    float: left;
+    overflow: auto;
+	margin-left: 20%;
+    padding: 2px;
+	
+} 
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #D4AF37;
+	border-radius: 5px;	
+	background-color: #000;
+	display: block;
+}
+
+nav a:hover {
+	background-color:#434343;
+}
+
+
+h1{
+	text-align: center;
+}
+
+.inicio{
+	background-color: white;
+	width: 450px;
+	margin-left: 38%;
+	border: 2px solid black;
+	height: 400px;
+}
+
+.bg-emojis {
+    width: 270px;
+  	height: 110px;
+    background: url('imagenes/css_sprites.png') -10px -160px;
+}
+
+.social a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+    margin: 10px;
+	vertical-align: middle;
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	 -ms-transition: all .3s;
+}
+
+.social a.facebook { background: url(https://dl.dropbox.com/s/r2la6x82bwtv50c/facebook.png); }
+.social a.twitter { background: url(https://dl.dropbox.com/s/vg08vwim67pharq/twitter.png); }
+.social a.youtube { background: url(https://dl.dropbox.com/s/8s5t68syabcshqg/youtube.png); }
+
+.social a:hover { background-position: 0px -34px; }
+
+footer{
+	position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+	right: 0;
+}

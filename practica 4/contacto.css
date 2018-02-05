@@ -1,0 +1,82 @@
+body {
+	background-image: url("imagenes/fondo.jpg");
+}
+
+.vertical-menu {
+    margin:auto;
+	margin-top:50px;
+	width:30%;
+	font-family:Times New Roman;
+	text-align: center;
+}
+
+.vertical-menu a {
+    background-color: #000;
+    color: #fff;
+    display: block; 
+   	padding:10px 12px;
+}
+
+.vertical-menu a:hover {
+    background-color: #434343;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+body{
+    width: 400px;
+    margin: auto;
+    background-color: #E2ECEE;
+}
+
+.social a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+    margin: 10px;
+	vertical-align: middle;
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	 -ms-transition: all .3s;
+}
+
+.social a.facebook { background: url(https://dl.dropbox.com/s/r2la6x82bwtv50c/facebook.png); }
+.social a.twitter { background: url(https://dl.dropbox.com/s/vg08vwim67pharq/twitter.png); }
+.social a.youtube { background: url(https://dl.dropbox.com/s/8s5t68syabcshqg/youtube.png); }
+
+.social a:hover { background-position: 0px -34px; }
+
+footer{
+	position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    right: 0;
+ }
+ 
+ .bg-starwars1 {
+    width: 180px; height: 85px;
+    background: url('imagenes/css_spritesNaves.png') -40px -80px;
+}
+
+ .bg-starwars2 {
+    width: 180px; height: 85px;
+    background: url('imagenes/css_spritesNaves.png') -200px -540px;
+}
+
+ .bg-starwars3 {
+    width: 180px; height: 85px;
+    background: url('imagenes/css_spritesNaves.png') 200px -8px;
+}
+
+.inicio{
+	background-color: hsla(290,60%,70%,0.7);
+	width: 800px;
+	margin-top: 30px;
+	border: 2px solid black;
+	height: 300px;
+}

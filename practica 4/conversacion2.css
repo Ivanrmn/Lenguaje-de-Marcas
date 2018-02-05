@@ -1,0 +1,99 @@
+body {
+	background-image: url("imagenes/fondo.jpg") 
+}
+
+.vertical-menu {
+    width: 200px;
+	margin-top: 350px;
+	margin-left: 20px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+main {
+	position:absolute;
+	width: 60%;
+	left: 40%;
+	top: 15%;
+}
+
+
+.social a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+    margin: 10px;
+	vertical-align: middle;
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	 -ms-transition: all .3s;
+}
+
+.social a.facebook { background: url(https://dl.dropbox.com/s/r2la6x82bwtv50c/facebook.png); }
+.social a.twitter { background: url(https://dl.dropbox.com/s/vg08vwim67pharq/twitter.png); }
+.social a.youtube { background: url(https://dl.dropbox.com/s/8s5t68syabcshqg/youtube.png); }
+
+.social a:hover { background-position: 0px -34px; }
+
+footer{
+	position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    right: 0;
+ }
+ 
+ .deporte {
+    width: 100px; height: 70px;
+    background: url('imagenes/captura.png') -10px -62px;
+}
+
+ .deporte2 {
+    width: 100px; height: 50px;
+    background: url('imagenes/captura.png') -120px -5px;
+}
+
+ .deporte3 {
+    width: 60px; height: 50px;
+    background: url('imagenes/captura.png') -230px -5px;
+}
+
+ .deporte4 {
+    width: 70px; height: 50px;
+    background: url('imagenes/captura.png') -280px -5px;
+}
+
+ .deporte5 {
+    width: 80px; height: 50px;
+    background: url('imagenes/captura.png') -570px -5px;
+}
+
+.inicio{
+	width: 50%;
+	text-align: center;
+	margin-top: 40px;
+	border: 2px solid white;
+	height: 500px;
+	font-size: 18px;
+    font-weight: bold;
+}
+
+p{
+	margin-top: 40px;
+}
