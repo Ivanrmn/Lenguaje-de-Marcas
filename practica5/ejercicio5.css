@@ -1,34 +1,34 @@
 body{
-	background-image: url("http://amigomejor.hol.es/css/fondo1.jpg");
-	font-family: Caladea;
+    background-image: url("http://amigomejor.hol.es/css/fondo1.jpg");
+    font-family: Caladea;
 }
 
 h1{
-	text-align: center;
-	color: #ECE2E0;
+    text-align: center;
+    color: #ECE2E0;
 }
 
 table{
-	background: #ECE2E0;
-	margin-left: 22%;
-	margin-top: 3%;
-	text-align: center;
-	border-collapse:collapse;
-	border: 1px solid black;
+    background: #ECE2E0;
+    margin-left: 22%;
+    margin-top: 3%;
+    text-align: center;
+    border-collapse:collapse;
+    border: 1px solid black;
 }
 
 table td{
-	border: 1px solid black;
-	padding: 14px;
+    border: 1px solid black;
+    padding: 14px;
 }
 
 .desc {
-	text-align: center;
-    padding: 20px;
+    text-align: center;
+    padding: 2%;
     display: none;
 }
 
 p {
-	font-weight:bold;
+    font-weight:bold;
 }
 
