@@ -8,7 +8,6 @@ $(function(){
 
 function ponerNoticias(json){
      $.each( json, function( i, articulo1 ) {
-         $("#noticias").append( "<h3 value='" + articulo1.title + "'>" + "</h3>" + "<p>" + articulo1.description + "</p>" );
-         //$('#noticias').append($('<option>', { value: noticia.slug, text : noticia.comunidad }));
+         $("#leerJson").append( "<h3 id='" + i + "'>" + articulo1.title + "</h3>" + "<p>" + articulo1.description + "</p>" );
      }); 
 }
