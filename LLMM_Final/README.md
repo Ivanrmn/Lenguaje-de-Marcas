@@ -30,3 +30,15 @@ jQuery i Bootstrap.
 (fins a 1 punt)
 
 Fins a + 2 punts: acabat final (o dit d'un altra forma: complir les especificacions del client o donar solucions elegants alternatives)
+
+
+## Maquetación
+
+Planificación del proyecto:
+
+-Página inicial, explicada con esquema:
+![Página principal](imagenes/planificacion1.jpg)
+
+-Páginas news1 y news2:
+![Páginas news1 y news2](imagenes/planificacion2.jpg)
+
