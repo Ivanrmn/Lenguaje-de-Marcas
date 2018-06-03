@@ -1,6 +1,7 @@
 $(function(){
     //cargar noticias
     $.getJSON( "../json/articulo1.json", function( jsonObject ) {
+		console.log(jsonObject);
         ponerNoticias( jsonObject );
     });
 
