@@ -1,6 +1,7 @@
 $(document).ready(function(){ 
    $('#leerJson').on('click',function(){
         $.getJSON( "../json/articulo1.json", function( jsonObject ) {
+			console.log(jsonObject);
           imprimirJson( jsonObject );
         });
 
@@ -11,6 +12,8 @@ $(document).ready(function(){
         }
    });
 });
+
+
 
 
 $("#noticia1").click(function () {
