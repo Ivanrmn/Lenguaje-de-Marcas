@@ -1,13 +1,17 @@
-function leerArticulo1() {
-    $.getJSON( "../json/articulo1.json", function( jsonObject ) {
-		$.each( json, function( i, articulo1 ) {
-			console.log(jsonObject);
-			$("#leerJson").append( "<h3 id='" + i + "'>" + articulo1.title + "</h3>" + "<p>" + articulo1.description + "</p>" );
+$(document).ready(function(){ 
+   $('#leerJson').on('click',function(){
+        $('#leerJson').hide();
+        $.getJSON( "../json/articulo1.json", function( jsonObject ) {
+          imprimirJson( jsonObject );
+        });
 
-    });
+        function imprimirJson(json){
+         $.each( json, function( i, noticia1 ) {
+          $("#cargarJson").append( "<h3 id='" + i + "'>" + noticia1.title + "</h3>" + "<p>" + "<img class='img-fluid float-left img-thumbnail mr-4' src='" + noticia1.img + "'>" + noticia1.description + "</p>" + "<div class='form-control'>" + noticia1.datetime + "</div>");
+         }); 
+        }
+   });
 });
-
-};
 
 $(#leerJson).click(function() {
 	leerArticulo1();
