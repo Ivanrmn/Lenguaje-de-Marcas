@@ -1,8 +1,8 @@
-$(document).ready(function(){ 
+/*$(document).ready(function(){ 
    $('#leerJson').on('click',function(){
         $.getJSON( "../json/articulo1.json", function( jsonObject ) {
 			console.log(jsonObject);
-          imprimirJson( jsonObject );
+            imprimirJson( jsonObject );
         });
 
         function imprimirJson(json){
@@ -11,10 +11,19 @@ $(document).ready(function(){
          }); 
         }
    });
+});*/
+
+$.getJSON( "../json/articulo1.json", function( data ) {
+  var items = [];
+  $.each( data, function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
 });
-
-
-
 
 $("#noticia1").click(function () {
     window.location.href = "../html/news1.html"
