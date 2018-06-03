@@ -9,6 +9,13 @@ function leerArticulo1() {
 
 };
 
-function mostrarJson() {
+$(#leerJson).click(function() {
 	leerArticulo1();
 }
+
+$("#noticia1").click(function () {
+    window.location.href = "../html/news1.html"
+});
+$("#noticia2").click(function () {
+    window.location.href = "../html/news2.html"
+});
