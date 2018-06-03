@@ -1,3 +1,16 @@
+var contador = 1;
+
+/*function contar() {
+	if (contador <= 2) {
+		$.getJSON( "https://rawgit.com/Ivanrmn/Lenguaje-de-Marcas/master/LLMM_Final/json/articulo" + contador + ".json", function( jsonObject ) {
+			addrow(jsonObject);
+		});
+		contador++;
+	}
+};*/
+		
+		
+		
 $(document).ready(function(){ 
    $('#leerJson').on('click',function(){
         $.getJSON( "https://rawgit.com/Ivanrmn/Lenguaje-de-Marcas/master/LLMM_Final/json/articulo1.json", function( jsonObject ) {
