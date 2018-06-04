@@ -16,11 +16,11 @@ $(document).ready(function () {
                 $.getJSON("https://rawgit.com/Ivanrmn/Lenguaje-de-Marcas/master/LLMM_Final/json/articulo2.json", function (jsonObject) {
                     console.log(jsonObject)
                     imprimirJson(jsonObject);
-                    i++
+                    i++;
                 });
+                $("#leerJson").hide();
                 break;
             default:
-                $("#leerJson").hide();
         }
     });
 
@@ -28,7 +28,7 @@ $(document).ready(function () {
         $.each(json, function (i, noticia) {
             $("#cargarJson").append("<div class='Box-noticia'>" + "<h3 id='" + i + "'>" + noticia.title + "</h3>" +
                 "<img class='rounded' src='" + noticia.img + "'>" + "<p>" + noticia.description + "</p>" +
-                "<div class='form-control' <input class='form-control' type='datetime-local' value='" + noticia.datetime + "'>" + "</div>" + "</div>");
+                "<div class='form-control' <p>" + noticia.datetime + "</p>" + "</div>" + "</div>");
         });
     }
 });
