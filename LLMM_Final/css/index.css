@@ -119,3 +119,11 @@ footer {
     height: 8%;
 	margin-right: 3%;
 }
+
+@media (max-width: 550px) {
+	.anuncios{
+		display: block;
+		margin: auto;
+		margin-bottom:10%;
+	}
+}
