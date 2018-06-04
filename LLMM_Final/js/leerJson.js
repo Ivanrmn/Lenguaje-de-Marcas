@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     function imprimirJson(json) {
         $.each(json, function (i, noticia) {
-            $("#cargarJson").append("<div class='Box-noticia'>" + "<h3 id='" + i + "'>" + noticia.title + "</h3>" +
+            $("#cargarJson").append("<div class='col-sm-9 Box-noticia'>" + "<h3 id='" + i + "'>" + noticia.title + "</h3>" +
                 "<img class='rounded' src='" + noticia.img + "'>" + "<p>" + noticia.description + "</p>" +
                 "<div class='form-control' <p>" + noticia.datetime + "</p>" + "</div>" + "</div>");
         });
