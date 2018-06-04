@@ -29,10 +29,10 @@ $(document).ready(function(){
         });
 
         function imprimirJson(json){
-         $.each( json, function( i, noticia1 ) {
-          $("#cargarJson").append( "<div class='Box-noticia'>" + "<h3 id='" + i + "'>" + noticia1.title + "</h3>" + 
-		  "<img class='rounded' src='" + noticia1.img + "'>" + "<p>" + noticia1.description + "</p>" + 
-		  "<div class='form-control' <input class='form-control' type='datetime-local' value='" + noticia1.datetime + "'>" + "</div>" + "</div>");
+         $.each( json, function( i, noticia ) {
+          $("#cargarJson").append( "<div class='Box-noticia'>" + "<h3 id='" + i + "'>" + noticia.title + "</h3>" + 
+		  "<img class='rounded' src='" + noticia.img + "'>" + "<p>" + noticia.description + "</p>" + 
+		  "<div class='form-control' <input class='form-control' type='datetime-local' value='" + noticia.datetime + "'>" + "</div>" + "</div>");
          }); 
         }
    });
@@ -43,4 +43,13 @@ $(document).ready(function(){
 });
 $("#noticia2").click(function() {
     window.location.href = "https://rawgit.com/Ivanrmn/Lenguaje-de-Marcas/master/LLMM_Final/html/news2.html"
+});*/
+
+
+/*$(window).scroll(function(){
+    if ($(window).scrollTop() == $(document).height()-$(window).height()){
+        $.getJSON( "https://rawgit.com/Ivanrmn/Lenguaje-de-Marcas/master/LLMM_Final/json/articulo1.json", function( jsonObject ) {
+			imprimirJson( jsonObject );
+    }
+});
 });*/
