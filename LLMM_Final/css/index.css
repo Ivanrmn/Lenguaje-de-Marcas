@@ -120,10 +120,11 @@ footer {
 	margin-right: 3%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 	.anuncios{
 		display: block;
 		margin: auto;
 		margin-bottom:10%;
+		position: relative;
 	}
 }
